@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+embed {
+    width: 1341px;
+    height: 647px;
+    position: absolute;
+}
+
+#header {
+    min-height: 300px;
+    position: relative;
+}
+
+#confnt {
+    font-size: 5rem;
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-size-adjust: 390;
+    font: Calibri;
+    font-size: larger;
+}
+
+#header div.section {
+    background: none;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 960px;
+}
+#header div.section a {
+    display: inline-block;
+    float: left;
+}
+
+#header div.section a {
+    margin: 21px 0 0;
+}
+
+
+#header div.section ul {
+    float: right;
+    list-style: none;
+    margin: 54px 0 0;
+    padding: 0;
+}
+
+#header div.section ul li {
+    float: left;
+}
+
+#header div.section ul li a {
+
+    display: block;
+
+    color: #FFFFFF;
+
+    float: none;
+
+    font-size: 17px;
+
+    height: 49px;
+
+    line-height: 49px;
+
+    margin: 0;
+
+    text-align: center;
+
+    text-decoration: none;
+
+    text-transform: capitalize;
+
+    width: 130px;
+
+}
+

@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    background: #000; 
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+.stopfade { 
+    opacity: .5;
+}
+#homepolina { 
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(10,0,0,0.3);
+    color: white;
+    padding: .5rem;
+    width: 550px;
+    height: 280px;
+    margin:2rem;
+    float: right;
+    font-size: 1.2rem;
+}
+#aboutpolina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(10,0,0,0.3);
+    color: white;
+    padding: 2rem;
+    width: 650px;
+    height: 280px;
+    margin:4rem;
+    margin-top: -150px;
+    margin-left: 10px;
+    float: right;
+    font-size: 1.2rem;
+}
+
+#listpolina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(10,0,0,0.3);
+    color: white;
+    padding: 2rem;
+    width: 500px;
+    height: 375px;
+    margin:4rem;
+    margin-top: -100px;
+    float: right;
+    font-size: 1rem;
+    line-height: 1em;
+}
+
+#contactpolina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(10,10,0,0.3);
+    color: white;
+    padding: 2rem;
+    width: 550px;
+    height: 330px;
+    margin:4rem;
+    margin-top: -80px;
+    margin-bottom: 40px;
+    float: right;
+    font-size: 1em;
+    line-height:0.5em;
+}
+#loginpolina { 
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(10,0,0,0.3);
+    color: white;
+    padding: 2rem;
+    width: 550px;
+    height: 250px;
+    margin:4rem;
+    margin-top: -30px;
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-size-adjust: 390;
+    font: Calibri;
+    font-size: larger;
+    float: right;
+    font-size: 1.2em;
+}
+#changepricepolina {
+    font-family: Agenda-Light, Agenda Light, Agenda, Arial Narrow, sans-serif;
+    font-weight:100; 
+    background: rgba(10,10,0,0.3);
+    color: white;
+    padding:1rem;
+    width: 500px;
+    height: 400px;
+    margin-top: -100px;
+    margin-right: 40px;
+    float: right;
+    font-size: 1.2rem;
+    line-height:35px;
+}
+
+#updtable {
+    width: 350px;
+    height: 150px;
+    overflow: scroll;
+}
+#scrl {
+    width:430px;
+    height:150px;
+    line-height:3em;
+    overflow:auto;
+    padding:2px;
+    line-height:40px;
+    overflow:hidden;
+
+}
+
+#ht {
+    color: #FFFFFF;
+    size: 50;
+    font-size: 6rem;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 0;
+    letter-spacing: .3rem;
+}
+#polina button { 
+    display: block;
+    width: 30%;
+    padding: .4rem;
+    border: none; 
+    margin: 1rem auto; 
+    font-size: 1.3rem;
+    background: rgba(255,255,255,0.23);
+    color: #fff;
+    border-radius: 3px; 
+    cursor: pointer;
+    transition: .3s background;
+}
+#polina button:hover { 
+    background: rgba(0,0,0,0.5);
+}
+
+a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background:rgba(0,0,0,0.5);
+    padding: .5rem;
+    transition: .6s background; 
+}
+a:hover{
+    background:rgba(0,0,0,0.9);
+}
+@media screen and (max-width: 500px) { 
+    div{width:70%;} 
+}
+@media screen and (max-device-width: 800px) {
+    html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }
+    #bgvid { display: none; }
+}
